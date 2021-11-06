@@ -1,2 +1,5 @@
-mini crud version
-springboot + mysql + springMVC + mysql-connector-java(8)
+mini crud version:
+- springboot 
+- mysql 
+- springMVC 
+- mysql-connector-java(8)
