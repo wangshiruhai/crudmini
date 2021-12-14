@@ -2,6 +2,7 @@ package com.crud.rest;
 
 import com.crud.biz.IUserService;
 import com.crud.entity.User;
+import com.crud.entity.UserResp;
 import com.crud.utils.ApiResult;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiOperation;
@@ -26,7 +27,7 @@ public class UserController {
 
     @ApiOperation("查看用户列表")
     @GetMapping("/find")
-    public ApiResult<List<User>> findUser() {
+    public ApiResult<List<UserResp>> findUser() {
         return ApiResult.success(userService.findUserList());
     }
 

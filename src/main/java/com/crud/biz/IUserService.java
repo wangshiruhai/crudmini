@@ -1,6 +1,7 @@
 package com.crud.biz;
 
 import com.crud.entity.User;
+import com.crud.entity.UserResp;
 import java.util.List;
 
 /**
@@ -9,7 +10,7 @@ import java.util.List;
  */
 public interface IUserService {
 
-    List<User> findUserList();
+    List<UserResp> findUserList();
 
     void saveUser(User user);
 

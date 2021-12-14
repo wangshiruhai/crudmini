@@ -7,6 +7,8 @@
         <result property="name" column="name"/>
         <result property="age" column="name"/>
         <result property="email" column="name"/>
+        <result property="updateUserId" column="update_user_id"/>
+        <result property="updateUserName" column="update_user_name"/>
     </resultMap>
 
 </mapper>
